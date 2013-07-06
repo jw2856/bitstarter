@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'restler' ]
+2 info using npm@1.2.32
+3 info using node@v0.10.12
+4 verbose node symlink /usr/bin/node
+5 verbose read json /vagrant/startup-engineering/hw3/bitstarter/package.json
+6 warn package.json node-example@0.0.1 No repository field.
+7 warn package.json node-example@0.0.1 No readme data.
+8 verbose read json /vagrant/startup-engineering/hw3/bitstarter/node_modules/cheerio/package.json
+9 verbose read json /vagrant/startup-engineering/hw3/bitstarter/node_modules/commander/package.json
+10 verbose read json /vagrant/startup-engineering/hw3/bitstarter/node_modules/express/package.json
+11 verbose from cache /vagrant/startup-engineering/hw3/bitstarter/package.json
+12 verbose readDependencies using package.json deps
+13 verbose cache add [ 'restler', null ]
+14 verbose cache add name=undefined spec="restler" args=["restler",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'restler',
+15 verbose parsed url   path: 'restler',
+15 verbose parsed url   href: 'restler' }
+16 silly lockFile fb93280d-restler restler
+17 verbose lock restler /home/vagrant/.npm/fb93280d-restler.lock
+18 silly lockFile fb93280d-restler restler
+19 silly lockFile fb93280d-restler restler
+20 verbose addNamed [ 'restler', '' ]
+21 verbose addNamed [ null, '' ]
+22 silly lockFile e35561c0-restler restler@
+23 verbose lock restler@ /home/vagrant/.npm/e35561c0-restler.lock
+24 silly addNameRange { name: 'restler', range: '', hasData: false }
+25 verbose url raw restler
+26 verbose url resolving [ 'https://registry.npmjs.org/', './restler' ]
+27 verbose url resolved https://registry.npmjs.org/restler
+28 info trying registry request attempt 1 at 04:59:33
+29 http GET https://registry.npmjs.org/restler
+30 info retry will retry, error on last attempt: Error: getaddrinfo EADDRINFO
+31 info trying registry request attempt 2 at 05:00:23
+32 http GET https://registry.npmjs.org/restler
+33 info retry will retry, error on last attempt: Error: getaddrinfo EADDRINFO
+34 info trying registry request attempt 3 at 05:02:03
+35 http GET https://registry.npmjs.org/restler
+36 silly lockFile e35561c0-restler restler@
+37 silly lockFile e35561c0-restler restler@
+38 error Error: getaddrinfo EADDRINFO
+38 error     at errnoException (dns.js:37:11)
+38 error     at Object.onanswer [as oncomplete] (dns.js:124:16)
+39 error If you need help, you may report this log at:
+39 error     <http://github.com/isaacs/npm/issues>
+39 error or email it to:
+39 error     <npm-@googlegroups.com>
+40 error System Linux 3.2.0-23-generic
+41 error command "/usr/bin/node" "/usr/bin/npm" "install" "restler"
+42 error cwd /vagrant/startup-engineering/hw3/bitstarter
+43 error node -v v0.10.12
+44 error npm -v 1.2.32
+45 error syscall getaddrinfo
+46 error code EADDRINFO
+47 error errno EADDRINFO
+48 verbose exit [ 1, true ]
